@@ -8,5 +8,9 @@
   },
   "scripts": {
     "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . simpleStorage.sol"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.1.3"
   }
 }
